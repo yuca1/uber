@@ -2,4 +2,4 @@
 !.gitignore
 *.csv
 *.db
-
+*.dta
