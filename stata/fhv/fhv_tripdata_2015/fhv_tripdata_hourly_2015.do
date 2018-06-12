@@ -18,6 +18,23 @@ fhv_tripdata_2015-12.csv
 ";
 #delimit cr;
 
+/*
+#delimit;
+local fnames "
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2015-02.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2015-03.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2015-04.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2015-05.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2015-06.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2015-07.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2015-08.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2015-09.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2015-10.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2015-11.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2015-12.csv 
+";
+#delimit cr;
+*/
 
 // set data name
 local dta_name "fhv_tripdata_hourly_2015.dta"

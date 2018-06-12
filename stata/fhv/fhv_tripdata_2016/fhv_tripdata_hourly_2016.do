@@ -2,6 +2,7 @@
 
 
 // filenames_2016
+/*
 #delimit;
 local fnames "
 fhv_tripdata_2016-02.csv
@@ -15,6 +16,23 @@ fhv_tripdata_2016-09.csv
 fhv_tripdata_2016-10.csv
 fhv_tripdata_2016-11.csv
 fhv_tripdata_2016-12.csv
+";
+#delimit cr;
+*/
+
+#delimit;
+local fnames "
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2016-02.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2016-03.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2016-04.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2016-05.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2016-06.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2016-07.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2016-08.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2016-09.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2016-10.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2016-11.csv 
+https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2016-12.csv 
 ";
 #delimit cr;
 
